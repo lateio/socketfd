@@ -1,0 +1,17 @@
+{application, socketfd,
+ [{description, "NIFs for creating TCP/UDP socket fds in Erlang"},
+  {vsn, "0.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [
+    'socketfd'
+  ]},
+
+  {maintainers, ["Lauri Moisio"]},
+  {licenses, ["ISC"]},
+  {links, ["https://github.com/lateio/socketfd"]}
+ ]}.
